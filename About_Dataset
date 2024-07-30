@@ -2,6 +2,98 @@
 
 This is a nationwide dataset of auto accidents that includes data from 49 US states. Using a number of APIs that offer streaming traffic incident (or event) data, the accident data were gathered between February 2016 and March 2023.
 These APIs disseminate traffic data that has been collected by a number of organizations, such as state and federal transportation departments, law enforcement organizations, traffic cameras, and traffic sensors installed in road networks.
-There are now about 7.7 million accident entries in the dataset. Please click this link for additional information about this dataset.
+There are now about 7.7 million accident entries in the dataset. Please click below link for additional information about this dataset.
+In this datasets , there are 46 column . The columns are- 
+
+
+🚗 Accident Data :
+
+1. ID: Unique identifier for each accident record.
+
+2. Source: Origin of raw accident data.
+
+3.Severity: Impact level of the accident (1-4).
+
+4. Start_Time: Local time when the accident started.
+
+5. End_Time: Local time when the accident impact ended.
+
+6. Start_Lng: Longitude of the accident start.
+
+7. End_Lat: Latitude of the accident end.
+
+8. Street: Name of the street where the accident occurred.
+
+9. City: City where the accident occurred.
+
+10. County: County where the accident occurred.
+
+11. State: State where the accident occurred.
+
+12. pcode: Zip code where the accident occurred.
+
+13. Country: Country where the accident occurred.
+
+14. Timezone: Time zone of the accident location.
+
+15. Airport_Code: Closest airport-based weather station.
+
+
+☁️ Weather Data :
+
+
+1. Weather_Timestamp: Time-stamp of weather observation.
+
+2. Temperature (°F): Temperature at the time of the accident.
+
+3. Wind_Chill (°F): Wind chill factor at the time of the accident.
+
+4. Humidity (%): Humidity level during the accident.
+
+5. Pressure (in): Air pressure at the time of the accident.
+
+6. Visibility (mi): Visibility distance during the accident.
+
+7. Wind_Direction: Direction of the wind.
+
+8. Wind_Speed (mph): Speed of the wind.
+
+9. Precipitation (in): Amount of precipitation.
+
+10. Weather_Condition: Weather conditions (e.g., fair, cloudy).
+
+11. Points of Interest (POI):
+
+12. Amenity: Presence of nearby amenities.
+
+13. Bump: Presence of speed bumps.
+
+14. Crossing: Presence of pedestrian crossings.
+
+15. Give_Way: Presence of give way signs.
+
+16. Junction: Presence of junctions.
+
+17. No_Exit: Presence of no exit signs.
+
+18. Railway: Presence of railways.
+
+19. Roundabout: Presence of roundabouts.
+
+20. Station: Presence of stations.
+
+
+📊 Data Statistics :
+
+
+1. Valid Records: 7.73 million
+
+2. Missing Values: Varies by field (e.g., Weather_Timestamp: 2% missing)
+
+3. Unique Values: High variety in fields like Zipcode, Weather_Condition, and Wind_Direction
+
+4. This summary captures the essential components and statistics of your dataset.
+
+
 
 You can download the dataset from Kaggle. For additional details, visit this link -https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
